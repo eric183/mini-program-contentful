@@ -4,7 +4,8 @@
   "description": "A light contentful.js library for mini-program",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ./"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,16 @@
   ],
   "dependencies": {
     "axios": "^0.19.1",
-    "axios-miniprogram-adapter": "^0.3.0"
+    "axios-miniprogram-adapter": "^0.3.0",
+    "contentful": "^7.14.4"
   },
   "author": "ericKuang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eric183/mini-program-contentful/issues"
   },
-  "homepage": "https://github.com/eric183/mini-program-contentful#readme"
+  "homepage": "https://github.com/eric183/mini-program-contentful#readme",
+  "devDependencies": {
+    "serve": "^11.3.1"
+  }
 }
