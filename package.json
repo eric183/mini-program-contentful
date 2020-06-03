@@ -1,6 +1,6 @@
 {
   "name": "mini-program-contentful",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A light contentful.js library for mini-program",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,7 @@
     "contentful",
     "javascript"
   ],
-  "dependencies": {
-    "axios": "^0.19.1",
-    "axios-miniprogram-adapter": "^0.3.0",
-    "contentful": "^7.14.4"
-  },
+  "dependencies": {},
   "author": "ericKuang",
   "license": "ISC",
   "bugs": {
@@ -29,6 +25,7 @@
   },
   "homepage": "https://github.com/eric183/mini-program-contentful#readme",
   "devDependencies": {
+    "contentful-management": "^5.26.5",
     "serve": "^11.3.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
